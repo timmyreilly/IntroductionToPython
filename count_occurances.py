@@ -1,16 +1,19 @@
 import urllib2
 import sys 
 
-print sys.argv[0]
-print sys.argv[1]
+print len(sys.argv)
 
-word = str(sys.argv[1])
+if len(sys.argv) == 2:
+    word = str(sys.argv[1])
+else:
+    word = 'python'
+
 site = "https://en.wikipedia.org/wiki/Monty_Python"
 
 contents = urllib2.urlopen(site).read().lower()
 
 split = contents.split(' ')
-print split
+# print split
 
 print "Number of monty:"
 print split.count('monty')

@@ -1,7 +1,6 @@
 from first_class import Person
 from employee import Employee
 
-print c, f 
 
 me = Person('Tim', 'Reilly', '503 314 3771')
 

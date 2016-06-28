@@ -1,5 +1,6 @@
 from first_class import Person
 
+# Demonstrating Inheritance 
 class Employee(Person):
 
     def __init__(self, first_name, surname, tel, salary):

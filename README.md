@@ -16,7 +16,7 @@ http://timmyreilly.com/python-introduction/
 
 ## 1. Install Python
 
-[Windows](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/)
+[Windows](http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/)
 
 [Mac](http://docs.python-guide.org/en/latest/starting/install/osx/)
 
@@ -31,7 +31,7 @@ $ pip install virtualenv
 
 virtualenv wrappers make it easy to manage multiple environments and can make iterating on project easy. 
 
-[Windows](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/)
+[Windows](http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/)
 
 [Mac](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 

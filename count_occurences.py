@@ -12,11 +12,6 @@ site = "https://en.wikipedia.org/wiki/Monty_Python"
 
 contents = urllib2.urlopen(site).read().lower()
 
-split = contents.split(' ')
-# print split
+print "Number of monty: ", contents.count('monty')
 
-print "Number of monty:"
-print split.count('monty')
-
-print "Number of " + word +":"
-print split.count(word) 
+print "Number of " + word +": ", contents.count(word) 

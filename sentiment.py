@@ -3,11 +3,15 @@ import requests
 import json 
 from tokens import OcpKey 
 
+# url = 'https://en.wikipedia.org/wiki/Monty_Python'
+# payload = {
+#     'q': 'Python',
+# }
+# r = requests.get(url % payload)
+
 url = 'https://en.wikipedia.org/wiki/Monty_Python'
-payload = {
-    'q': 'Python',
-}
-r = requests.get(url % payload)
+
+r = requests.get(url)
 
 soup = BeautifulSoup(r.text, "html.parser")
 l = soup.find_all('p')

@@ -2,7 +2,7 @@
 
 These are the supporting files to my blog post found here: 
 http://timmyreilly.com/python-introduction/ 
-
+Supporting slides can be found [here](https://doc.co/MCeXQn)
 
 #Setting Up your Dev Environment
 
